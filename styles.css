@@ -1,0 +1,46 @@
+body {
+    background-color: #7A5C4D;
+    color: #F5EFE6;
+    font-family: "Open Sans", sans-serif;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #F2C94C;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+nav a {
+    color: #6FA8DC;
+}
+
+section {
+    margin-top: 30px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
