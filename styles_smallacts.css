@@ -1,0 +1,118 @@
+body {
+    background-color: #7A5C4D;
+    color: #F5EFE6;
+    font-family: "Open Sans", sans-serif;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #F2C94C;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+nav a {
+    color: #6FA8DC;
+}
+
+section {
+    margin-top: 30px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+/* -added and changed this \/ from styles.css -Jonathan P */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+    align-items: center;
+    color: #7A5C4D;
+    background-color: #F5EFE6;
+    border-radius: 15% / 200%;
+    width: 40%;
+    margin-top: -20px;
+}
+
+
+.bar {
+    justify-self: center;
+    background-color: #F2C94C;
+    padding: 2px 50px;
+    width: 95%;
+    margin: 50px 0px 50px 0px;
+}
+
+#main_imgbox {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+
+    background-color: #6FA8DC ;
+    border-radius: 10% / 20%;
+
+}
+#main_img{
+    width: 60%;
+    border-radius: 5%;
+
+}
+
+
+/* this was interesting to discover \/ */
+#main_img + p{ 
+    padding: 0px 25px;
+}
+/*  */
+
+
+#miracles_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 75px;
+}
+
+.miracle_card {
+    background-color: #6FA8DC;
+    border-radius: 5%;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.miracle_img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+section {
+
+    margin-top: 0px;
+    margin-bottom: -30px;
+}
