@@ -119,9 +119,15 @@ footer p {
     margin: auto;
     padding: 0px 20px;
     box-shadow: 5px 5px 10px rgba(79, 50, 33, 0.5);
-    
+    border-radius: 2px;
 }
 #articles h4, #articles p{
     color: #6FA8DC;
     text-align: center;
+}
+#articles h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: -3px;
 }
